@@ -1,0 +1,16 @@
+{
+  "name": "set-window-resolution",
+  "main": "./lib/set-window-resolution",
+  "version": "0.0.0",
+  "description": "set window resolution by entering a number.",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "set-window-resolution:toggle"
+  },
+  "repository": "https://github.com/ankd-k/set-window-resolution",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}

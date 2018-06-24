@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle set-window-resolution",
+        "command": "set-window-resolution:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "set-window-resolution",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "set-window-resolution:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
